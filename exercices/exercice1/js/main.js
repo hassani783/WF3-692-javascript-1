@@ -13,9 +13,11 @@ window.onload = function(){
     //recuperation des element avec la nouvelel mathode
     //selectionner tt les p
     var pWithQuerySelectorByTagName = document.querySelectorAll('p');
+    //selectionner juste la 1er p
+    //var pWithQuerySelectorByTagName = document.querySelector('p');
     //selectionner par id
     var divWithQuerySelectorById = document.querySelector('#card');
-   //selectionner par id
+   //selectionner par class
     var divWithQuerySelectorByClassName =  document.querySelector('.card');
     //afficher dans la console
     console.log("pWithQuerySelector: ", pWithQuerySelectorByTagName); 
