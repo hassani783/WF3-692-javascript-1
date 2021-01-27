@@ -1,0 +1,24 @@
+/*il faut que tous le contenu de la page soit centrer au milieu*/
+body{
+    justify-content: center;
+    background-color: green;
+    padding: 100px;
+    margin : 100px;
+}
+
+
+
+/*l'id div doit contenir les propriétés css pour centrer un élément text au milieu du bloc*/
+#center{
+    justify-content: center;
+    background-color: brown;
+}
+
+/* La classe square doit avoir une largeur de 100px et une hauteur de 100px*/
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+
+/* La class color1 sera rouge, color2 sera vert, color3 sera bleu*/
